@@ -163,7 +163,7 @@ if metrics:
 
 if uploaded_file is not None:
     image_pil, image_torch = preprocess_image(uploaded_file)
-    st.image(image_pil, caption='Uploaded Image', use_column_width=True)
+    st.image(image_pil, caption='Uploaded Image', use_container_width=True)
     
     with torch.no_grad():
         prediction = model(image_torch)

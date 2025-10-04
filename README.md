@@ -93,11 +93,23 @@ industrial-main/
 
 4. **Download pre-trained models**
    
-   Due to GitHub's file size limitations, model weights are hosted separately:
+   Due to GitHub's file size limitations (~360MB), model weights need to be downloaded separately:
    
-   **Option A: Manual Download**
-   - Download `best_model_dice.pth` from [Google Drive/Hugging Face]
+   **Option A: Train your own model**
+   ```bash
+   # Run the training notebook
+   jupyter notebook main.ipynb
+   # Follow the training cells to generate model checkpoints
+   ```
+   
+   **Option B: Use provided models** (if available)
+   - Download `best_model_dice.pth` from releases or shared drive
    - Place in `outputs/checkpoints/` directory
+   
+   **Check setup**
+   ```bash
+   python check_setup.py  # Verify all components are ready
+   ```
    
    **Option B: Using download script**
    ```bash
