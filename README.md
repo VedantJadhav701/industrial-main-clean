@@ -39,7 +39,7 @@ An advanced deep learning project for automated steel surface defect detection a
 ## 📁 Project Structure
 
 ```
-industrial-main/
+Steel-Segmentation-Defect-Detect/
 ├── app.py                          # Streamlit web application
 ├── main.ipynb                      # Main training notebook
 ├── h.ipynb                         # Model development notebook
@@ -56,7 +56,7 @@ industrial-main/
 │   ├── model/                      # Model artifacts
 │   └── visualizations/             # Generated plots
 └── projects/
-    └── industrial-main/            # Additional resources
+    └── Steel-Segmentation-Defect-Detect/  # Additional resources
 ```
 
 ## 🚀 Quick Start
@@ -71,8 +71,8 @@ industrial-main/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/VedantJadhav701/industrial-main.git
-   cd industrial-main
+   git clone https://github.com/VedantJadhav701/Steel-Segmentation-Defect-Detect.git
+   cd Steel-Segmentation-Defect-Detect
    ```
 
 2. **Create conda environment**
@@ -192,7 +192,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Vedant Jadhav** - [@VedantJadhav701](https://github.com/VedantJadhav701)
 
-Project Link: [https://github.com/VedantJadhav701/industrial-main](https://github.com/VedantJadhav701/industrial-main)
+Project Link: [https://github.com/VedantJadhav701/Steel-Segmentation-Defect-Detect](https://github.com/VedantJadhav701/Steel-Segmentation-Defect-Detect)
 
 ---
 
